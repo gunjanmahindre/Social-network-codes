@@ -8,10 +8,10 @@ Missing entries in the matrix are recovered using Low-rank Matrix Completion.Res
 
 
 ## Approach
-D >> VC >> delete a percentage of entries >> Recover VC     
+**D** >> **VC** >> delete a percentage of entries >> Recover **VC **    
 Where     
-D: complete distance matrix    
-VC: Virtual coordinate matrix = Only a few columns are selected from the NxN distance matrix    
+**D**: complete distance matrix    
+**VC**: Virtual coordinate matrix = Only a few columns are selected from the NxN distance matrix    
 Percentage deletion: 20, 40, 60, 80, 90% of entries are deleted from the VC matrix    
 We use Low-rank Matrix Completion integrated with bounds for missing entries to estimate missing node pair distances.    
 
