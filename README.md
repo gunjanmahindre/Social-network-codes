@@ -26,7 +26,7 @@ We use Low-rank Matrix Completion integrated with bounds for missing entries to 
 
 ## Data used
 Undirected social networks were used:    
-1. Facebook
-2. Collaboration
-3. Enron Email    
+1. Facebook (file name: Original_Dist_nw1)
+2. Collaboration (file name: Original_Dist_nw2)
+3. Enron Email (file name: Original_Dist_nw3)
 Distance matrices of these networks are given in this repository.
