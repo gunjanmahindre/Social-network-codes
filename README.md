@@ -8,12 +8,12 @@ Missing entries in the matrix are recovered using Low-rank Matrix Completion.Res
 
 
 ## Approach
-D >> VC >> delete a percentage of entries >> Recover VC 
-Where 
-D: complete distance matrix
-VC: Virtual coordinate matrix = Only a few columns are selected from the NxN distance matrix
-Percentage deletion: 20, 40, 60, 80, 90% of entries are deleted from the VC matrix
-We use Low-rank Matrix Completion integrated with bounds for missing entries to estimate missing node pair distances.
+D >> VC >> delete a percentage of entries >> Recover VC     
+Where     
+D: complete distance matrix    
+VC: Virtual coordinate matrix = Only a few columns are selected from the NxN distance matrix    
+Percentage deletion: 20, 40, 60, 80, 90% of entries are deleted from the VC matrix    
+We use Low-rank Matrix Completion integrated with bounds for missing entries to estimate missing node pair distances.    
 
 
 ## Performance evaluation metrics:
@@ -25,8 +25,8 @@ We use Low-rank Matrix Completion integrated with bounds for missing entries to 
 
 
 ## Data used
-Undirected social networks were used:
+Undirected social networks were used:    
 1. Facebook
 2. Collaboration
-3. Enron Email
+3. Enron Email    
 Distance matrices of these networks are given in this repository.
