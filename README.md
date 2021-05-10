@@ -1,6 +1,6 @@
 # Social network codes
 
-This has all the codes used in ToN paper
+This has all the codes used in Social Network paper
 D >> VC >> delete a percentage of entries >> Recover VC 
 
 
